@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { 
   ReactFlow, 
   Controls, 
@@ -6,7 +6,6 @@ import {
   applyNodeChanges, 
   applyEdgeChanges, 
   addEdge,
-  type Node,
   type Edge,
   type OnNodesChange,
   type OnEdgesChange,
